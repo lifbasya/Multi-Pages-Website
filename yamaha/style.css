@@ -1,0 +1,149 @@
+body {
+    background-color: #FEF6E3;
+    font-family: sans-serif;
+}
+
+.back {
+    padding-top: 57px;
+    padding-left: 260px;
+
+    button {
+        background-color: black;
+    }
+    
+    a {
+        display: flex;
+        gap: 10px;
+    }
+}
+
+.homepage {
+    display: flex;
+    gap: 149px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+h1 {
+    width: 404px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    font-family: "Michroma", serif;
+    color: #3348A1;
+}
+
+p {
+    width: 450px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #E4543A;
+    border: none;
+
+    p {
+        font-weight: 700;
+        font-size: 18px;
+        color: white;
+        width: fit-content;
+        padding: 0;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  body {
+    background-color: #FEF6E3;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .homepage {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  h1 {
+    width: 100%;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    font-family: "Michroma", serif;
+    color: #3348A1;
+  }
+
+  p {
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  button {
+    padding: 8px;
+  }
+
+  button a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  .back {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  .back button {
+    background-color: black;
+  }
+
+  .back a {
+    display: flex;
+    gap: 5px;
+  }
+      
+  img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+
+}
